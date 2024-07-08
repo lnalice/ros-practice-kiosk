@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_kiosk</name>
+  <version>0.0.0</version>
+  <description>This package contains a toy example 'the simple kiosk'</description>
+
+  <author email="jane.doe@example.com">Jane Doe</author>
+  <maintainer email="domain@todo.todo">lnalice</maintainer>
+
+  <license>TODO</license>
+
+  <!-- <url type="website">http://wiki.ros.org/my_kiosk</url> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>smach</exec_depend>
+  <exec_depend>smach_ros</exec_depend>
+
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>actionlib_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
