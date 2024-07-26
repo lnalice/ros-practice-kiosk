@@ -1,3 +1,3 @@
-int64 id
+uint16 id
 string[] food
 string[] beverage

@@ -43,10 +43,12 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
+    CATKIN_DEPENDS rospy rostopic std_msgs std_srvs actionlib smach smach_msgs
+    DEPENDS rostopic
 #  INCLUDE_DIRS include
 #  LIBRARIES my_kiosk
 #  CATKIN_DEPENDS other_catkin_pkg
-#  DEPENDS system_lib
+
 )
 
 ###########
